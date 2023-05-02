@@ -8,7 +8,7 @@
     const hora = prompt(`Informe a hora no formato hh:mm:ss:`).trim();
 
     //PROCESSAMENTO
-    const dias = Number(data.substr(0, 2));
+    const dias = Number(data.substr(0, 2)); - 1
     const meses = Number(data.substr(3, 2)) - 1;
     const anos = Number(data.substr(6, 4)) - 1;
     const horas = Number(hora.substr(0, 2));
